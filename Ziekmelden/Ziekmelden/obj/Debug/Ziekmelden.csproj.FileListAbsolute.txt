@@ -1,0 +1,17 @@
+C:\Users\looss\source\repos\Ziekmelden\Ziekmelden\obj\Debug\MainWindow.g.cs
+C:\Users\looss\source\repos\Ziekmelden\Ziekmelden\obj\Debug\App.g.cs
+C:\Users\looss\source\repos\Ziekmelden\Ziekmelden\obj\Debug\Ziekmelden_MarkupCompile.cache
+C:\Users\looss\source\repos\Ziekmelden\Ziekmelden\obj\Debug\Ziekmelden_MarkupCompile.lref
+C:\Users\looss\source\repos\Ziekmelden\Ziekmelden\bin\Debug\Ziekmelden.exe.config
+C:\Users\looss\source\repos\Ziekmelden\Ziekmelden\bin\Debug\Ziekmelden.exe
+C:\Users\looss\source\repos\Ziekmelden\Ziekmelden\bin\Debug\Ziekmelden.pdb
+C:\Users\looss\source\repos\Ziekmelden\Ziekmelden\obj\Debug\MainWindow.baml
+C:\Users\looss\source\repos\Ziekmelden\Ziekmelden\obj\Debug\Ziekmelden.g.resources
+C:\Users\looss\source\repos\Ziekmelden\Ziekmelden\obj\Debug\Ziekmelden.Properties.Resources.resources
+C:\Users\looss\source\repos\Ziekmelden\Ziekmelden\obj\Debug\Ziekmelden.csproj.GenerateResource.cache
+C:\Users\looss\source\repos\Ziekmelden\Ziekmelden\obj\Debug\Ziekmelden.csproj.CoreCompileInputs.cache
+C:\Users\looss\source\repos\Ziekmelden\Ziekmelden\obj\Debug\Ziekmelden.exe
+C:\Users\looss\source\repos\Ziekmelden\Ziekmelden\obj\Debug\Ziekmelden.pdb
+C:\Users\looss\source\repos\Ziekmelden\Ziekmelden\obj\Debug\Ziekmelden.csproj.AssemblyReference.cache
+C:\Users\looss\source\repos\Ziekmelden\Ziekmelden\obj\Debug\Beterform.g.cs
+C:\Users\looss\source\repos\Ziekmelden\Ziekmelden\obj\Debug\Beterform.baml

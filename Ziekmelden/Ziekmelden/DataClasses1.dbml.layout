@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DataClasses1">
+  <DataContextMoniker Name="/DataClasses1DataContext" />
+  <nestedChildShapes>
+    <classShape Id="31e8e28c-be52-4267-989d-ff30476df7f7" absoluteBounds="2.25, 2.125, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DataClasses1DataContext/Ziek" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7cb981ea-54ee-46ad-b34e-482a79f32fde" absoluteBounds="2.2649999999999997, 2.585, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6fc2ec7e-5d20-4efc-ba8d-36399ad37e8e" absoluteBounds="5.375, 2.125, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DataClasses1DataContext/Persoon" />
+      <nestedChildShapes>
+        <elementListCompartment Id="eb486bad-83b8-49a3-8c58-b3a4e6b34c9e" absoluteBounds="5.39, 2.585, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.375 : 2.91429768880208); (4.25 : 2.91429768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/Persoon/Persoon_Ziek" />
+      <nodes>
+        <classShapeMoniker Id="6fc2ec7e-5d20-4efc-ba8d-36399ad37e8e" />
+        <classShapeMoniker Id="31e8e28c-be52-4267-989d-ff30476df7f7" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

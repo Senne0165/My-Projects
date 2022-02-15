@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Ziekmelden" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LOCAL)\sqlexpress;Initial Catalog=Ziekmelden;Integrated Security=True" SettingsObjectName="Ziekmelden.Properties.Settings" SettingsPropertyName="ZiekmeldenConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Ziek" Member="Zieks">
+    <Type Name="Ziek">
+      <Column Name="ZiekID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PersoonID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DatumZ" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="DatumB" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Association Name="Persoon_Ziek" Member="Persoon" ThisKey="PersoonID" OtherKey="PersoonID" Type="Persoon" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Persoon" Member="Persoons">
+    <Type Name="Persoon">
+      <Column Name="PersoonID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Voornaam" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Achternaam" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Afdeling" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Persoon_Ziek" Member="Zieks" ThisKey="PersoonID" OtherKey="PersoonID" Type="Ziek" />
+    </Type>
+  </Table>
+</Database>
