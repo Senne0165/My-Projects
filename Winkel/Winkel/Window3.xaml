@@ -1,0 +1,21 @@
+﻿<Window x:Class="Winkel.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Winkel"
+        mc:Ignorable="d"
+        Title="Window3" Height="450" Width="351.236">
+    <Grid Margin="0,0,3.6,0" Background="#FF696868">
+        <ComboBox x:Name="cbLname" HorizontalAlignment="Left" Margin="43,31,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="cbProduct" HorizontalAlignment="Left" Margin="43,81,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtAantal" HorizontalAlignment="Left" Height="23" Margin="43,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnVerzend" Content="Voeg product toe" HorizontalAlignment="Left" Margin="43,225,0,0" VerticalAlignment="Top" Width="108" Click="btnVerzend_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="168,128,0,0" TextWrapping="Wrap" Text="&lt;- Aantal" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="168,90,0,0" TextWrapping="Wrap" Text="&lt;- Product" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="168,37,0,0" TextWrapping="Wrap" Text="&lt;- Achternaam" VerticalAlignment="Top"/>
+        <Button x:Name="btnNieuw" Content="Nieuwe Bestelling" HorizontalAlignment="Left" Margin="185,10,0,0" VerticalAlignment="Top" Width="120" Click="btnNieuw_Click"/>
+        <ComboBox x:Name="cbOrder" HorizontalAlignment="Left" Margin="43,179,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="168,179,0,0" TextWrapping="Wrap" Text="&lt;- Order ID" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
